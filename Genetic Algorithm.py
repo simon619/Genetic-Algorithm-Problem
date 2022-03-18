@@ -46,7 +46,7 @@ while m < len(adj):
     m += 1
 
 print('Transactions: %s' % info_list)
-impossible = (2 ** len(info_list)) + 1  # More Efficient Then 10 ** 5
+impossible = (2 ** len(info_list)) + 1  # More Efficient Than 10 ** 5
 bin_list = []
 if len(info_list) <= 5:
     point = 2
